@@ -1,0 +1,8 @@
+1. CHECKING IF DIRECTORY NAMED "hadoop" IS PRESENT IN HDFS
+hadoop fs -ls /user/acadgild
+
+2. SINCE IT IS NOT PRESENT WE CREATE A DIRECTORY USING -mkdir COMMAND
+hadoop fs -mkdir /user/acadgild/hadoop
+
+3. CHECKING AGAIN USING -ls COMMAND
+hadoop fs -ls
